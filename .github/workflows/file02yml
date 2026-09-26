@@ -1,4 +1,5 @@
 # workflow
+
 name: Java CI/CD Pipeline to Tomcat
 
 # Event trigger
@@ -7,7 +8,7 @@ on:
     branches: [ main ]   # Trigger on push to main branch
 
 # Job
-jobs:  # <--- FIXED: The colon is correctly used here.
+jobs:
   # build
   build:
     runs-on: ubuntu-latest
